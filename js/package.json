@@ -1,0 +1,46 @@
+{
+  "name": "damm64",
+  "version": "1.0.0",
+  "description": "Base64 (base64url) implementation of the Damm check digit algorithm",
+  "license": "BSD-2-Clause",
+  "author": "Daniel Tillett",
+  "homepage": "https://github.com/DanielTillett/Damm64#javascript",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielTillett/Damm64.git",
+    "directory": "js"
+  },
+  "bugs": {
+    "url": "https://github.com/DanielTillett/Damm64/issues"
+  },
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./damm64.d.ts",
+      "default": "./damm64.js"
+    }
+  },
+  "types": "./damm64.d.ts",
+  "bin": {
+    "damm64": "bin/damm64.js"
+  },
+  "files": [
+    "damm64.js",
+    "damm64.d.ts",
+    "bin/"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "damm",
+    "check digit",
+    "checksum",
+    "base64",
+    "error detection",
+    "base64url"
+  ]
+}

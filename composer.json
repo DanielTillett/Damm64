@@ -1,0 +1,37 @@
+{
+    "name": "danieltillett/damm64",
+    "description": "Base64 (base64url) implementation of the Damm check digit algorithm",
+    "type": "library",
+    "keywords": [
+        "damm",
+        "check digit",
+        "checksum",
+        "base64",
+        "error detection"
+    ],
+    "homepage": "https://github.com/DanielTillett/Damm64",
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "Daniel Tillett"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/DanielTillett/Damm64/issues",
+        "source": "https://github.com/DanielTillett/Damm64"
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Damm64\\": "php/src/"
+        }
+    },
+    "bin": [
+        "php/bin/damm64"
+    ],
+    "scripts": {
+        "test": "php php/tests/Damm64Test.php"
+    }
+}
