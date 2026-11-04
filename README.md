@@ -18,10 +18,10 @@ Base64 zero is `A`. Input is **case-sensitive**.
 
 ## Which version should I use?
 
-| | [damm32](https://github.com/DanielTillett/Damm32) | damm64 | [damm95](https://github.com/DanielTillett/Damm95) |
+| | [damm32](https://github.com/DanielTillett/Damm32) | damm64 | [damm93](https://github.com/DanielTillett/Damm93) |
 | --- | --- | --- | --- |
-| Alphabet | Lowercase letters and digits without look-alikes, plus `*` | base64url | All printable ASCII |
-| Bits per character | 5 | 6 | ~6.6 |
+| Alphabet | Lowercase letters and digits without look-alikes, plus `*` | base64url | Visible ASCII except `\` |
+| Bits per character | 5 | 6 | ~6.5 |
 | Case | Insensitive | Sensitive | Sensitive |
 | Best for | Codes people read and type | IDs and tokens that are copied, or used in URLs | Compact machine-to-machine strings |
 
